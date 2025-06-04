@@ -1,0 +1,67 @@
+html, body {
+    font-family: Garamond;
+    text-align: center;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+}
+
+#left-header {
+    background-color:  #795548;
+    font-size: 170%;
+}
+
+#left-second {
+    height: 400px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    background-color: #BCAAA4;
+    width: 28%;
+    color: #795548;
+}
+
+
+footer {
+    background-color: #795548;
+    color: white;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border: 1px solid  #795548;
+}
+
+tr:hover {
+    background-color: sienna;
+    color: white;
+}
+
+h4 {
+    font-size: 200%;
+}
+
+img {
+    padding: 20px;
+    border-radius: 40px;
+}
+
+a {
+    color:white;
+}
+
+.radio {
+    margin: 7px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
